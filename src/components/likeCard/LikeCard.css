@@ -1,0 +1,33 @@
+.likeCard {
+    width: 280px;
+    border: 1px solid red;
+}
+
+.likeCardInfo{
+    padding: 10px;
+}
+
+.likeCardInfo .prices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.likeCardInfo .prices h4 {
+    color: #c7c2c2;
+    font-weight: 400;
+}
+
+.likeCardImg {
+    width: 100%;
+}
+
+.likeCardImg .img {
+    width: 200px;
+    margin:  0 auto;
+}
+
+.likeCardImg .img  img {
+    width: 100%;
+}

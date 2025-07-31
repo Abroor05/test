@@ -1,0 +1,284 @@
+.cardTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.hero {
+  position: relative;
+}
+
+.cardTitle h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.cardTitle h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.cardTitle h4:hover {
+  background-color: rgb(239, 79, 79);
+  color: white;
+}
+
+.cards {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.popularSection {
+  margin-bottom: 20px;
+}
+
+.popularCardTitle h3 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.popularCards {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.popularCards .popularCard {
+  width: 280px;
+  height: 100%;
+  padding: 10px;
+  border: 1px solid #f2f2f2;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.popularCards .popularCard:hover {
+  box-shadow: 0 0 10px 0 rgb(195, 193, 193);
+}
+
+.popularCards .popularCard h3 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.popularCards .popularCard span {
+  width: 50%;
+}
+
+.popularCards .popularCard span img {
+  width: 100%;
+}
+
+.rekomendum {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 10px;
+}
+
+.rekLeft {
+  width: 300px;
+}
+
+.rekLeft img {
+  width: 100%;
+  height: 100%;
+}
+
+.rekRight {
+  width: 900px;
+}
+
+/* brenda */
+
+.brendsSection {
+  margin-bottom: 20px;
+}
+
+.brends {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.brend {
+  width: 200px;
+  padding: 20px 40px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.brend:hover {
+  box-shadow: 0 0 10px 0 rgb(176, 175, 175);
+  cursor: pointer;
+}
+
+.brend span {
+  width: 100px;
+}
+
+.brend span img {
+  width: 100%;
+}
+
+/*  */
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: blue; /* qora emas, ochiq rang */
+  font-weight: 400 !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 14px !important;
+  background-color: #ed3729 !important;
+  border-radius: 50%;
+  padding: 10px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.popularCard img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.popularCard {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Tugmalar ko'rinadigan bo'lishi uchun */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #c1bdbd !important;
+  font-weight: bold;
+  z-index: 10;
+}
+
+/* Tugmalarni kattalashtirish */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 20px;
+}
+
+.swiper-slide {
+  background: transparent !important;
+}
+
+/* caregoryModal */
+
+.modals {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.catModal {
+  background-color: rgba(0, 0, 0, 0.312);
+  width: 100%;
+  min-height: 1000px;
+  position: absolute;
+  z-index: 99999;
+}
+
+.catModal .modals {
+  background-color: white;
+  padding: 30px;
+  padding-left: 160px;
+}
+
+.modal1 {
+  width: 300px;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.modalSpan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.modalSpan:hover {
+  background-color: #dad6d6;
+}
+
+.modalSpan span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+/*  */
+
+.modalLeft {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  align-items: stretch;
+  justify-content: start;
+  gap: 30px;
+  border: 1px solid;
+  overflow: hidden;
+}
+
+.hoverImgName {
+  width: 300px;
+  display: none;
+  align-items: start;
+  justify-content: center;
+  gap: 40px;
+  flex-direction: column;
+  max-height: 400px; /* yoki kerakli balandlik */
+  overflow-y: auto;
+  scroll-behavior: auto;
+}
+
+.hoverImgName.click{
+  display: flex;
+}
+
+.hoverImgName span {
+  padding: 10px 50px;
+  border-radius: 5px;
+}
+
+.hoverImgName span:hover {
+  background-color: #e0e0e0;
+  
+}
