@@ -17,7 +17,9 @@ function App() {
   
   return (
     <>
+
       <BrowserRouter>
+      <h1>salom</h1>
 
         {
           categoryModal ? <CategoryModal/> : ""
